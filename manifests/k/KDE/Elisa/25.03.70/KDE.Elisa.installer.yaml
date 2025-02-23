@@ -1,4 +1,4 @@
-# Created with YamlCreate.ps1 v2.4.3 $debug=NVS1.CRLF.7-4-6.Win32NT
+# Created with YamlCreate.ps1 Dumplings Mod
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
 
 PackageIdentifier: KDE.Elisa
@@ -9,14 +9,14 @@ ProductCode: Elisa
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-3669-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 241DF3A2CB6FE31CD6D6770409C4098A71B39E56C01895BC39C7A9F71FECC99C
+  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-3685-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 1E1315FAA3FA52F3D0C0D4392789C761DF820E1F8253C0C50ADE5678C698B461
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-3669-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 241DF3A2CB6FE31CD6D6770409C4098A71B39E56C01895BC39C7A9F71FECC99C
+  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-3685-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 1E1315FAA3FA52F3D0C0D4392789C761DF820E1F8253C0C50ADE5678C698B461
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
